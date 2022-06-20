@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="\css\loading.css">
+    <script src="\javascript\pop-up.js" defer></script>
+    <title>pop-up</title>
+</head>
+<body>
+    <button id="submit">delete account</button>
+    <div class="pop-up none" id="pop-up">
+        <div class="text-center pop-up-header">
+            Confirm delete account
+        </div>
+        <div class="pop-up-body">
+            once you delete your accouunt, any current subscriptions will
+            be terminated, any other associated accounts will also be terminated and
+            any content you may have purchased access to will no longer be available.
+            this is not reversible, are you sure you wish to continue.
+
+            <div class="accept" id="accept">
+                <button class="confirm text-center">confirm delete account</button>
+            </div>
+        </div>
+    </div>
+    <div id="cover"></div>
+</body>
+</html>
